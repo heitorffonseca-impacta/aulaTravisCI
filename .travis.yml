@@ -1,5 +1,7 @@
 linguagem : python
 python :
   - " 3,4 "
-roteiro :
-  - cd src; python tests.py
+before_script:
+  - cd src
+script:
+  - python testes.py
